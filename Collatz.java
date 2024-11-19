@@ -27,7 +27,7 @@ public class Collatz {
 				System.out.print( "(" + stepcount + ")");
 				System.out.println("");
 			}
-			System.out.println("Every one of the first " + N +" hailstone sequences reached 1");
+			System.out.println("Every one of the first " + N +" hailstone sequences reached 1.");
 		}
 		if(mode.equals("c")){
 			for (int i = 1; i <= N; i++){
@@ -48,7 +48,7 @@ public class Collatz {
 					}
 				}
 			}
-			System.out.println("Every one of the first " + N +" hailstone sequences reached 1");
+			System.out.println("Every one of the first " + N +" hailstone sequences reached 1.");
 		}
 	}
 }
